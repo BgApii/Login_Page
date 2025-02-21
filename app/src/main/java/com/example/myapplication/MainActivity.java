@@ -12,7 +12,6 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
-import java.net.PasswordAuthentication;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -35,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
         String user = username.getText().toString();
         String pw = password.getText().toString();
 
-        if (user.isEmpty() || pw.isEmpty()) {
+        if (!user.equals("Aprek") || !pw.equals("Aprek123")) {
             Toast.makeText(this, "Login Gagal", Toast.LENGTH_SHORT).show();
             return;
         }
