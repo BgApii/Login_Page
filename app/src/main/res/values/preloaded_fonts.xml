@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/</item>
+        <item>@font/adlam_display</item>
+        <item>@font/amaranth_bold</item>
+        <item>@font/bagel_fat_one</item>
+        <item>@font/baloo_bhai</item>
+        <item>@font/candal</item>
+        <item>@font/poppins</item>
+        <item>@font/poppins_bold</item>
+    </array>
+</resources>
